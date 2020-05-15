@@ -11,7 +11,7 @@ SCFLAGS		= -g
 SCLINK		=-lsystemc-ams -lsystemc $(EXTRA_LIBS)
 SCOBJS		=$(SCFILES:%.sc=%.o) $(SCLIBS:%.cpp=%.o)
 
-NSLSCFLAGS	= $(NSLFLAGS) -sc_split_header -sc_trace
+#NSLSCFLAGS	= $(NSLFLAGS) -sc_split_header -sc_trace
 
 
 %.scsim:
